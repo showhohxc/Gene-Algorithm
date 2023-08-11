@@ -17,6 +17,6 @@
 - chBest_chr
 - ProcCrossOver
 - ProcCombination
- -- ProcChromosomeSwap
- -- ProcCheckSum
+ - ProcChromosomeSwap
+ - ProcCheckSum
 - ProcWarningMutation
