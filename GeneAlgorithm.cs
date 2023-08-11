@@ -182,7 +182,7 @@ public class GeneAlgorithm
         }
     }
 
-    public int DoSetAlter()
+    public void DoSetAlter()
     {
         ProcCrossOver();
         System.Random rand = new System.Random();
@@ -193,9 +193,7 @@ public class GeneAlgorithm
         Debug.Log(string.Format("<color=red>돌연변이 확률! {0}% </color>", rand_v));
 
         if (rand_v < fMutation_ratio)
-            return ProcWarningMutation();
-
-        return -1;
+            ProcWarningMutation();
     }
 
     /// <summary>
@@ -270,7 +268,7 @@ public class GeneAlgorithm
         }
     }
 
-    int ProcWarningMutation()
+    void ProcWarningMutation()
     {
         System.Random rand = new System.Random();
         System.Random rand2 = new System.Random();
@@ -280,8 +278,6 @@ public class GeneAlgorithm
         chPopulation[nMutation].Array_nCode[nIdx] = (chPopulation[nMutation].Array_nCode[nIdx] == 1) ? 0 : 1;
         chPopulation[nMutation].SetPowerVal(Array_Enemys, true);
         Debug.Log(string.Format("<color=red>돌연변이 발생! Power {0} Value {1}</color>", chPopulation[nMutation].nPower, chPopulation[nMutation].nValue));
-
-        return nMutation;
     }
 
     void ProcChromosomeSwap(ChromoSomeInfo ch_1, ChromoSomeInfo ch_2, int nIndex)
