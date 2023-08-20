@@ -57,7 +57,7 @@
 ### ProcWarningMutation
 
 - 돌연변이 염색체의 발생으로 Rare한 염색체를 가지고 있는 유전자(Enemy)를 생성
-
+```
     void ProcWarningMutation()
     {
         System.Random rand = new System.Random();
@@ -68,6 +68,7 @@
         chPopulation[nMutation].Array_nCode[nIdx] = (chPopulation[nMutation].Array_nCode[nIdx] == 1) ? 0 : 1;
         chPopulation[nMutation].SetPowerVal(Array_Enemys, true);
     }
+```
 
 ### Note / Result
 
