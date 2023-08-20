@@ -6,6 +6,8 @@
 
 - 유전 알고리즘을 학습 후, 각 세대마다 Player에게 대응하는 Enemys 최적의 조건을 맞추어보았다.
 
+[![Video Label](http://img.youtube.com/vi/cHgll2BdbGk/0.jpg)](https://youtu.be/cHgll2BdbGk)
+
 ### Genetic Algorithm
 
 - Player가 스테이지내에서 Enemys 사냥한다는 목적하에 Enemys 가 교배를 통한 진화와 돌연변이 발생들의 변수를 통해 Player를 압박하는 시스템을 구현해보았다.
