@@ -42,7 +42,7 @@
 ## ProcChromosomeSwap
 
 - 염색체 교환 그 과정에서 nMax_P 이상의 유전자가 발생시 바로 아웃 다음 유전자의 염색체를 교환
-'''
+```
     void ProcChromosomeSwap(ChromoSomeInfo ch_1, ChromoSomeInfo ch_2, int nIndex)
     {
         int nTemp = ch_1.Array_nCode[nIndex];
@@ -52,7 +52,8 @@
         ch_1.SetPowerVal(Array_Enemys);
         ch_2.SetPowerVal(Array_Enemys);
     }
-'''
+```
+
 ### ProcWarningMutation
 
 - 돌연변이 염색체의 발생으로 Rare한 염색체를 가지고 있는 유전자(Enemy)를 생성
