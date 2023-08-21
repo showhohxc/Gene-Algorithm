@@ -7,6 +7,7 @@
 - 유전 알고리즘을 학습 후, 각 세대마다 Player에게 대응하는 Enemys 최적의 조건을 맞추어보았다.
 
 > Youtube
+
 [![Video Label](http://img.youtube.com/vi/cHgll2BdbGk/0.jpg)](https://youtu.be/cHgll2BdbGk)
 
 ### Genetic Algorithm
